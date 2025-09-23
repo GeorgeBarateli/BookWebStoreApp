@@ -12,6 +12,7 @@ namespace BookWebStore.Models
         public string Name { get; set; }
         [Required]
         [Display(Name = "Display Order")]
-        public string DisplayOrder { get; set; }
+        [Range(1,100)]
+        public int DisplayOrder { get; set; }
     }
 }
