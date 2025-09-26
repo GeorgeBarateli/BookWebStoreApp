@@ -10,6 +10,6 @@ namespace BookWebStore.Data
 
         }
         
-        public DbSet<Category> Books { get; set; }
+        public DbSet<Category> Categories { get; set; }
     }
 }
